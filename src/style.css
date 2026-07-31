@@ -1,2 +1,89 @@
-@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Modak&family=Outfit:wght@300;400;500;600;700&display=swap');
 @import 'tailwindcss';
+
+@theme {
+  --font-display: 'Modak', system-ui, sans-serif;
+  --font-sans: 'Outfit', system-ui, sans-serif;
+
+  --color-ink: #0c0c0c;
+  --color-ink-raised: #161616;
+  --color-ink-soft: #1e1e1e;
+  --color-mist: #c8c4bc;
+  --color-fog: #8a8680;
+  --color-sage: #9caf88;
+  --color-sage-bright: #b4c9a0;
+  --color-lilac: #b8a9d4;
+  --color-lilac-deep: #9a88c4;
+  --color-line: #2a2a2a;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: var(--font-sans);
+    color: var(--color-mist);
+    background-color: var(--color-ink);
+    background-image:
+      radial-gradient(ellipse 80% 50% at 15% -10%, rgb(156 175 136 / 0.14), transparent 55%),
+      radial-gradient(ellipse 70% 45% at 90% 5%, rgb(184 169 212 / 0.12), transparent 50%),
+      radial-gradient(ellipse 60% 40% at 50% 100%, rgb(156 175 136 / 0.06), transparent 45%);
+    background-attachment: fixed;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  #app {
+    min-height: 100vh;
+  }
+
+  ::selection {
+    background: rgb(156 175 136 / 0.35);
+    color: white;
+  }
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(1.25rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes soft-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-0.4rem);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.8s ease-out both;
+}
+
+.animate-fade-in {
+  animation: fade-in 1s ease-out both;
+}
+
+.animate-soft-float {
+  animation: soft-float 6s ease-in-out infinite;
+}
