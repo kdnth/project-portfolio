@@ -9,7 +9,8 @@ defineProps<{
 <template>
   <a
     :href="resumePdf"
-    download="Kaden-Thrower-Resume.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
     class="inline-flex items-center gap-2 rounded-xl bg-sage px-5 py-3 text-sm font-semibold text-ink transition-colors duration-200 hover:bg-sage-bright focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sage"
   >
     <svg
