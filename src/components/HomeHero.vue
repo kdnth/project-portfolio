@@ -3,7 +3,7 @@ import ResumeDownloadButton from '@/components/ResumeDownloadButton.vue'
 </script>
 
 <template>
-  <header class="relative flex min-h-[100svh] flex-col justify-center px-6 py-16 sm:px-10">
+  <header class="relative flex min-h-svh flex-col justify-center px-6 py-16 sm:px-10">
     <div class="mx-auto flex w-full max-w-5xl flex-col items-center text-center">
       <div class="animate-fade-in">
         <img
@@ -19,7 +19,8 @@ import ResumeDownloadButton from '@/components/ResumeDownloadButton.vue'
         class="animate-fade-up mt-8 max-w-xl text-lg font-light leading-relaxed text-mist sm:text-xl"
         style="animation-delay: 0.15s"
       >
-        Software engineer based in Charlotte, NC, targeting Seattle area. Focused on building clean, secure systems that work.
+        Software engineer based in Charlotte, NC, targeting Seattle area. Focused on building clean,
+        secure systems that work.
       </p>
 
       <div class="animate-fade-up mt-8" style="animation-delay: 0.3s">

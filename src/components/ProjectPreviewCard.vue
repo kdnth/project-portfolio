@@ -20,7 +20,7 @@ function toggleDescription() {
   <article
     class="group overflow-hidden rounded-2xl border border-line bg-ink-raised/80 transition-colors duration-300 hover:border-sage/40"
   >
-    <div class="relative aspect-[16/10] overflow-hidden bg-ink-soft">
+    <div class="relative aspect-16/10 overflow-hidden bg-ink-soft">
       <img
         :src="props.project.screenshot"
         :alt="props.project.screenshotAlt"

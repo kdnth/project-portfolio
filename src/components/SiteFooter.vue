@@ -23,7 +23,7 @@ const links = [
     <div class="mx-auto flex max-w-5xl flex-col gap-8 sm:flex-row sm:items-end sm:justify-between">
       <div>
         <p class="font-display text-3xl text-white">Kaden Thrower</p>
-        <p class="mt-2 text-sm text-fog">Charlotte, NC · open to Seattle</p>
+        <p class="mt-2 text-sm text-fog">Charlotte, NC · Open to relocation</p>
         <p class="mt-4 max-w-sm text-xs leading-relaxed text-fog/80">
           Personal and project logos designed in Figma.
         </p>

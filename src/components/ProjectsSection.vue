@@ -9,8 +9,8 @@ import { projects } from '@/data/projects'
       <div class="max-w-2xl">
         <h2 id="projects-heading" class="font-display text-4xl text-lilac sm:text-5xl">Projects</h2>
         <p class="mt-4 text-base leading-relaxed text-fog sm:text-lg">
-          Selected work across full-stack apps and client-side tools. All project logos were designed
-          in Figma by me.
+          Selected work across full-stack apps and client-side tools. All project logos were
+          designed in Figma by me.
         </p>
       </div>
 
