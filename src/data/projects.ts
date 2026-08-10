@@ -25,7 +25,7 @@ export const projects: Project[] = [
     name: 'CampaignKeep',
     summary: 'D&D campaign and character tracker for players and game masters.',
     description:
-      'Full-stack D&D 5e organizer with JWT auth, email confirm/reset via Resend, and role-based campaign access (master/player). Manage characters, inventory, spells, session logs, and roll dice client-side. Capstone for WGU’s Software Engineering degree — Vue 3 SPA, Spring Boot API, PostgreSQL.',
+      'Full-stack D&D 5e organizer with JWT auth, email confirm/reset via Resend, and role-based campaign access (master/player). Manage campaigns, characters, inventory, spells, session logs, and roll dice client-side. Capstone for my Software Engineering degree @ WGU. Vue 3 SPA, Spring Boot API, PostgreSQL.',
     tags: ['Vue 3', 'Spring Boot', 'PostgreSQL', 'JWT', 'Railway', 'Netlify'],
     logo: campaignKeepLogo,
     logoAlt: 'CampaignKeep logo — isometric six-sided die',
@@ -39,7 +39,7 @@ export const projects: Project[] = [
     name: 'ChordShuffler',
     summary: 'Client-side chord practice tool with audio playback and a built-in metronome.',
     description:
-      'Timed flashcards for 7th chords that run entirely in the browser — pick chord types, optional key or progression, and shuffle on a seconds or beats interval. Includes Web Audio playback and a metronome with adjustable BPM and time signature. No backend required.',
+      'Timed flashcards for 7th chords that run entirely in the browser. Users pick chord types, optional key or progression, and shuffle on a seconds or beats interval. Includes Web Audio playback and a metronome with adjustable BPM and time signature. No backend required.',
     tags: ['Vue 3', 'TypeScript', 'Vite', 'Web Audio'],
     logo: chordShufflerLogo,
     logoAlt: 'ChordShuffler logo — fretboard grid with shuffle arrows',
