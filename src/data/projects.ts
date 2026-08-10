@@ -32,7 +32,7 @@ export const projects: Project[] = [
     screenshot: campaignKeepScreenshot,
     screenshotAlt: 'CampaignKeep campaign dashboard showing NPC character sheet',
     liveUrl: 'https://campaignkeep.kdnth.co',
-    sourceUrl: 'https://github.com/kdnth/CampaignKeep-WGU-SWE-Capstone-',
+    sourceUrl: 'https://github.com/kdnth/CampaignKeep',
   },
   {
     id: 'chordshuffler',
