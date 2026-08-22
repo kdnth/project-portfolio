@@ -19,8 +19,7 @@ import ResumeDownloadButton from '@/components/ResumeDownloadButton.vue'
         class="animate-fade-up mt-8 max-w-xl text-lg font-light leading-relaxed text-mist sm:text-xl"
         style="animation-delay: 0.15s"
       >
-        Software engineer based in Charlotte, NC, targeting Seattle area. Focused on building clean,
-        secure systems that work.
+        Software engineer based in Charlotte, NC, open to relocation.
       </p>
 
       <div class="animate-fade-up mt-8" style="animation-delay: 0.3s">

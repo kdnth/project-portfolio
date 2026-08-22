@@ -8,8 +8,7 @@
         Software engineer based in Charlotte, NC, open to relocation. Currently targeting Seattle
         area. Graduated from WGU in 2026 with B.S. in Software Engineering. Bringing the attention
         to detail and always-learning mindset I learned as a lifelong multi-instrumentalist to
-        system architecture. I care about building clean and secure software with code that works,
-        not code that just looks good.
+        system architecture.
       </p>
     </div>
   </section>
