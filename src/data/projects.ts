@@ -21,6 +21,29 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    id: 'portfolio-tracker',
+    name: 'PortfolioTracker',
+    summary: 'Investment portfolio tracker with FastAPI and Vue 3.',
+    description:
+      'Create accounts and portfolios, record buy/sell trades, and analyze your portfolio with an AI agent powered by the Anthropic API. View holdings with weighted-average cost basis stored as integer cents. Layered FastAPI services, ownership-scoped routes, JWT auth, and a typed Vue 3 SPA with Pinia. Deployed API on Railway, SPA on Netlify, Postgres on Neon.',
+    tags: [
+      'FastAPI',
+      'Anthropic API',
+      'Agentic AI',
+      'Vue 3',
+      'PostgreSQL',
+      'Pinia',
+      'JWT',
+      'Docker',
+    ],
+    logo: portfolioTrackerLogo,
+    logoAlt: 'PortfolioTracker logo — folder with letter P',
+    screenshot: portfolioTrackerScreenshot,
+    screenshotAlt: 'PortfolioTracker portfolios list with Retirement book',
+    liveUrl: 'https://portfolio-tracker.kdnth.co',
+    sourceUrl: 'https://github.com/kdnth/portfolio-tracker',
+  },
+  {
     id: 'campaignkeep',
     name: 'CampaignKeep',
     summary: 'D&D campaign and character tracker for players and game masters.',
@@ -47,28 +70,5 @@ export const projects: Project[] = [
     screenshotAlt: 'ChordShuffler practice UI showing Cmaj7 with metronome controls',
     liveUrl: 'https://chordshuffler.kdnth.co',
     sourceUrl: 'https://github.com/kdnth/ChordShuffler',
-  },
-  {
-    id: 'portfolio-tracker',
-    name: 'PortfolioTracker',
-    summary: 'Investment portfolio tracker with FastAPI and Vue 3.',
-    description:
-      'Create accounts and portfolios, record buy/sell trades, and analyze your portfolio with an AI agent powered by the Anthropic API. View holdings with weighted-average cost basis stored as integer cents. Layered FastAPI services, ownership-scoped routes, JWT auth, and a typed Vue 3 SPA with Pinia. Deployed API on Railway, SPA on Netlify, Postgres on Neon.',
-    tags: [
-      'FastAPI',
-      'Anthropic API',
-      'Custom AI Agent',
-      'Vue 3',
-      'PostgreSQL',
-      'Pinia',
-      'JWT',
-      'Docker',
-    ],
-    logo: portfolioTrackerLogo,
-    logoAlt: 'PortfolioTracker logo — folder with letter P',
-    screenshot: portfolioTrackerScreenshot,
-    screenshotAlt: 'PortfolioTracker portfolios list with Retirement book',
-    liveUrl: 'https://portfolio-tracker.kdnth.co',
-    sourceUrl: 'https://github.com/kdnth/portfolio-tracker',
   },
 ]
