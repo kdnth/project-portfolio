@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import resumePdf from '@/assets/resume/kaden-resume-2026.pdf'
+import resumePdf from '@/assets/resume/kaden-thrower-resume.pdf'
 
 defineProps<{
   label?: string
