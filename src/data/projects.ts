@@ -1,6 +1,8 @@
+import builpLogo from '@/assets/projects/logos/builp.png'
 import campaignKeepLogo from '@/assets/projects/logos/campaignkeep.png'
 import chordShufflerLogo from '@/assets/projects/logos/chord-shuffler.png'
 import portfolioTrackerLogo from '@/assets/projects/logos/portfolio-tracker.png'
+import builpScreenshot from '@/assets/projects/screenshots/builp.png'
 import campaignKeepScreenshot from '@/assets/projects/screenshots/campaignkeep.png'
 import chordShufflerScreenshot from '@/assets/projects/screenshots/chord-shuffler.png'
 import portfolioTrackerScreenshot from '@/assets/projects/screenshots/portfolio-tracker.png'
@@ -20,6 +22,30 @@ export type Project = {
 }
 
 export const projects: Project[] = [
+  {
+    id: 'builp',
+    name: 'builp',
+    summary:
+      'Targeted learning course platform with a course generation AI workflow. Courses contain written lessons, runnable code practice, and interactive activities.',
+    description:
+      'Write, generate, and work through courses combining written lessons, runnable code practice, and interactive activities. Course generation is powered by LangGraph with tiered Anthropic model routing, using either a server-managed free credit or a user-supplied API key. React/Mantine frontend, FastAPI/SQLAlchemy/Postgres backend, and Neon Auth.',
+    tags: [
+      'React',
+      'FastAPI',
+      'LangGraph',
+      'Anthropic API',
+      'Agentic AI',
+      'PostgreSQL',
+      'Neon Auth',
+      'TypeScript',
+    ],
+    logo: builpLogo,
+    logoAlt: 'builp logo. stylized lowercase b and p to create cartoon eyes',
+    screenshot: builpScreenshot,
+    screenshotAlt: 'builp course view showing a Dynamic Programming Fundamentals lesson outline',
+    liveUrl: 'https://builp.kdnth.co',
+    sourceUrl: 'https://github.com/kdnth/builp',
+  },
   {
     id: 'portfolio-tracker',
     name: 'PortfolioTracker',
